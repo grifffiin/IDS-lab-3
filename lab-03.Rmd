@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 ---
 title: "Lab 03 – Critical-Responsible Use of GenAI for Data Science"
-author: "Team Name: User1, Alice Lilwall, Ethan Carter, User4"
+author: "Team Name: User1, Alice Lilwall, Ethan Carter, Dylan Glen"
 date: "`r Sys.Date()`"
 output: html_document
 ---
