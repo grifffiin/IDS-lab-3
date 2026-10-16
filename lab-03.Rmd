@@ -34,23 +34,24 @@ Are there missing values?
 
 ```{r}
 # explore the types of the columns in jan_feb_flights
-
+glimpse(jan_feb_flights)
 ```
 
 ```{r}
 # which columns are integer
-
+jan_feb_flights %>% select(where(is.numeric))
 
 # which columns are double
-
+jan_feb_flights %>% select(where(is.double))
 
 # which columns are character
-
+jan_feb_flights %>% select(where(is.character))
 
 ```
 
 ```{r}
 # which columns contain NA's
+is.na(jan_feb_flights) %>% colSums() 
 
 ```
 
